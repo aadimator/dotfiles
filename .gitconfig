@@ -1,0 +1,7 @@
+[user]
+	name = Aadam
+	email = aadimator@gmail.com
+[core]
+	editor = code
+[init]
+	defaultBranch = main
