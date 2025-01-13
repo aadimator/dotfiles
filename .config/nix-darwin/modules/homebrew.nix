@@ -65,6 +65,7 @@
       "imageoptim"
       "ollama"
       "signal"
+      "siyuan"
       "slack"
       "stolendata-mpv"
       "telegram"

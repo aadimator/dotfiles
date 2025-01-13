@@ -15,6 +15,7 @@
     tree
     uv
     zoxide
+    fzf
 
     # Applications
     itsycal
