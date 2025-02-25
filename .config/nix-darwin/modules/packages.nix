@@ -1,25 +1,25 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    # Development
-    git
-    rustup
-    vscode
-    zed-editor
+    # # Development
+    # git
+    # rustup
+    # vscode
+    # zed-editor
 
-    # Utils
-    ffmpeg
-    mailsy
+    # # Utils
+    # ffmpeg
+    # mailsy
     starship
-    stow
-    tree
-    uv
-    zoxide
-    fzf
+    # stow
+    # tree
+    # uv
+    # zoxide
+    # fzf
 
-    # Applications
-    itsycal
-    obsidian
-    qbittorrent
+    # # Applications
+    # itsycal
+    # obsidian
+    # qbittorrent
   ];
 }

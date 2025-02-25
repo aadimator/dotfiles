@@ -88,3 +88,5 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(pixi completion --shell zsh)"
+export PATH="/Users/aadam/.pixi/bin:$PATH"

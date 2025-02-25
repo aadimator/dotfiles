@@ -30,16 +30,29 @@
     ];
 
     brews = [
-      "mas"
-      "juliaup"
-      "pixi"
       "borders"
+      "ffmpeg"
+      "fzf"
+      "git"
+      "juliaup"
+      "mailsy"
+      "mas"
+      "pixi"
+      "rustup"
       "sketchybar"
+      # "starship"
+      "stow"
+      "tree"
+      "uv"
+      "zoxide"
     ];
 
     casks = [
       # Development
       "ghostty"
+      "quarto"
+      "visual-studio-code"
+      "zed"
 
       # Utilities
       "aldente"
@@ -48,9 +61,12 @@
       "bitwarden"
       "karabiner-elements"
       "raycast"
+      "rocket"
       "shottr"
       "stats"
       "the-unarchiver"
+      "itsycal"
+
 
       # Applications
       "adobe-creative-cloud"
@@ -64,10 +80,13 @@
       "handbrake"
       "imageoptim"
       "ollama"
+      "obsidian"
+      "qbittorrent"
       "signal"
       "siyuan"
       "slack"
       "stolendata-mpv"
+      "todoist"
       "telegram"
       "whatsapp"
       "zotero"
@@ -83,6 +102,9 @@
       "font-hack-nerd-font"
       "font-meslo-lg-nerd-font"
       "font-sketchybar-app-font"
+      "font-ia-writer-duo"
+      "font-ia-writer-mono"
+      "font-ia-writer-quattro"
     ];
 
     global = {
@@ -93,7 +115,7 @@
     onActivation = {
       autoUpdate = true;
       upgrade = true;
-      cleanup = "zap";
+      # cleanup = "zap";
     };
   };
 }
