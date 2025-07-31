@@ -90,3 +90,8 @@ zstyle ':completion:*' menu no
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(pixi completion --shell zsh)"
 export PATH="/Users/aadam/.pixi/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/aadam/.lmstudio/bin"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
