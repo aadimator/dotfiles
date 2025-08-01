@@ -52,7 +52,7 @@ alias l="ls" # List files in current directory
 alias ls="ls --color"
 alias ll="ls -al --color" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
-alias cw="cd workspace" # Change to the workspace directory
+alias cdw="cd workspace" # Change to the workspace directory
 alias c='clear'
 
 # ----------------------
