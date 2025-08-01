@@ -1,8 +1,8 @@
 
 # If /usr/share/cachyos-fish-config/cachyos-config.fish exists, source it
-if test -f /usr/share/cachyos-fish-config/cachyos-config.fish; then
+if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
     source /usr/share/cachyos-fish-config/cachyos-config.fish
-fi
+end
 
 starship init fish | source
 
