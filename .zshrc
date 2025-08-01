@@ -95,3 +95,8 @@ export PATH="/Users/aadam/.pixi/bin:$PATH"
 export PATH="$PATH:/Users/aadam/.lmstudio/bin"
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+
+# If .zshrc.local exists, source it
+if [ -f "$HOME/.zshrc.local" ]; then
+    source "$HOME/.zshrc.local"
+fi
