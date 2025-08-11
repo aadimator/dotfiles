@@ -100,3 +100,13 @@ export PATH="$PATH:/Users/aadam/.lmstudio/bin"
 if [ -f "$HOME/.zshrc.local" ]; then
     source "$HOME/.zshrc.local"
 fi
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/aadam/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
+
+export PYTHONPYCACHEPREFIX="$HOME/.cache/cpython/"

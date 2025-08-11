@@ -9,3 +9,5 @@ starship init fish | source
 alias cdw='cd ~/workspace'
 
 string match -q "$TERM_PROGRAM" "kiro" and . (kiro --locate-shell-integration-path fish)
+
+set -x PYTHONPYCACHEPREFIX "$HOME/.cache/cpython/"
